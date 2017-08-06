@@ -1,0 +1,26 @@
+{
+  "name": "isvar",
+  "version": "1.0.0",
+  "description": "Check is complex structure set",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelcon/isvar.git"
+  },
+  "keywords": [
+    "is",
+    "var",
+    "set"
+  ],
+  "author": "kelcon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelcon/isvar/issues"
+  },
+  "homepage": "https://github.com/kelcon/isvar#readme",
+  "dependencies": {
+  }
+}
