@@ -1,6 +1,6 @@
 {
   "name": "isvar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check is complex structure set",
   "main": "index.js",
   "scripts": {
