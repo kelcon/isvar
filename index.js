@@ -1,7 +1,7 @@
 
 module.exports = function(obj, path) {
 
-    if (path.split == undefined) throw Error("No valid path specified");
+    if (typeof path.split === 'undefined') throw Error("No valid path specified");
 
     var parts   = path.split('.'); // .
 
@@ -11,7 +11,7 @@ module.exports = function(obj, path) {
         if (obj == null) obj = global[name];
         else obj = obj[name];
 
-        if (obj == undefined) return false;
+        if (typeof obj === 'undefined') return false;
     };
     return true;
 }
